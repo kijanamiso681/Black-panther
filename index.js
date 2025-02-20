@@ -106,8 +106,8 @@ async function connectToWA() {
 
       let up = `Hey, ${getGreeting()}
 ╭════⊷
-║ *『Adict Manlung is online』*
-║    Creator: *Adict-Manlung*
+║ *『𝐀𝐋𝐏𝐇𝐀-𝐌𝐃 𝐢𝐬 𝐎𝐧𝐥𝐢𝐧𝐞』*
+║    Creator: *keithkeizzah*
 ║    Prefix : [ ${prefix} ]
 ║    Mode : ${mode}
 ╰═════════════════⊷
@@ -115,7 +115,7 @@ async function connectToWA() {
 ┃
 ┃ *Thank you for choosing*                      
 ┃  *ALPHA-MD*
-> Regards Adict-Manlung 
+> Regards keithkeizzah 
 ╰═════════════════⊷`;
 
       zk.sendMessage(zk.user.id, { text: up });
@@ -141,7 +141,7 @@ async function connectToWA() {
       if (currentTime - lastTextTime >= messageDelay) {
         // Send the rejection message if the delay has passed
         await zk.sendMessage(callerId, {
-          text: '```❗📵 I AM ADICT MANLUNG BOT| I REJECT THIS CALL BECAUSE MY OWNER IS BUSY. KINDLY SEND TEXT INSTEAD```.',
+          text: '```❗📵I AM ALPHA MD | I REJECT THIS CALL BECAUSE MY OWNER IS BUSY. KINDLY SEND TEXT INSTEAD```.',
         });
 
         // Update the last text time
